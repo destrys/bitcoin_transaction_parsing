@@ -1,0 +1,26 @@
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+
+# VirtualEnv #
+##############
+.virtualenv/*
+
+
+# Compiled source #
+###################
+*__pycache__*
+
+# Python files #
+################
+# sphinx build directory
+docs/build
+# pytest cache 
+.cache/*
+# Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# other temporary files
+.coverage
